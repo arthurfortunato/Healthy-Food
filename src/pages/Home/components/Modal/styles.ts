@@ -16,6 +16,7 @@ export const HeaderModalStyled = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 15px;
+
   div {
     display: flex;
     align-items: center;
@@ -43,6 +44,7 @@ export const BodyModalStyled = styled.main`
   border-radius: 30px;
   padding: 20px;
   background: #f7fafc;
+  z-index: 9999;
 
   h2 {
     font: 500 1.3rem "Roboto", sans-serif;

@@ -3,7 +3,7 @@ import {
   BodyModalStyled,
   HeaderModalStyled,
   InputModalStyled,
-} from "./styles";
+} from "./styles"; 
 
 import React, { ChangeEvent, useEffect, useState } from "react";
 import Modal from "react-modal";

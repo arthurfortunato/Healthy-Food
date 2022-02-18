@@ -13,6 +13,6 @@ export const Blog = () => {
       <CarouselStyled>
         <Carousel />
       </CarouselStyled>
-    </Container>
+    </Container> 
   );
 };
