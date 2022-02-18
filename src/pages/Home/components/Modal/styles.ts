@@ -58,10 +58,15 @@ export const BodyModalStyled = styled.main`
   @media (max-width: 730px) {
     background: #fff;
     margin: 30px;
+
+    button {
+      margin: 0;
+      height: 40px;
+    }
   }
 
   form {
-    max-height: 70vh;
+    max-height: 90vh;
   }
 `;
 
@@ -75,9 +80,6 @@ export const InputModalStyled = styled.div`
       width: 100%;
     }
   }
-  label {
-    font: 500 0.9rem "Roboto", sans-serif;
-  }
 
   @media (max-width: 730px) {
     transition: 1.8s all;
@@ -85,12 +87,11 @@ export const InputModalStyled = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
 
     div {
       input {
         transition: 1.8s all;
-        height: 40px;
+        height: 35px;
         font-size: 1rem;
       }
     }

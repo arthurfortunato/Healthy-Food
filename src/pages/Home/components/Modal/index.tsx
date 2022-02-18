@@ -127,7 +127,6 @@ export function ModalCreateUser() {
           <form onSubmit={saveStorage}>
             <InputModalStyled>
               <div>
-                <label>Nome completo(Nome e Sobrenome):</label>
                 <Input
                   onChange={handleInputChange}
                   type="text"
@@ -136,7 +135,6 @@ export function ModalCreateUser() {
                   placeholder="Informe o seu Nome..."
                 />
 
-                <label>CPF:</label>
                 <Input
                   onChange={handleInputChange}
                   name="cpf"
@@ -144,7 +142,6 @@ export function ModalCreateUser() {
                   placeholder="Informe seu CPF..."
                 />
 
-                <label>Data de Nascimento:</label>
                 <Input
                   onChange={handleInputChange}
                   type="date"
@@ -153,7 +150,6 @@ export function ModalCreateUser() {
                   placeholder="Informe a sua data de nascimento..."
                 />
 
-                <label>CEP:</label>
                 <Input
                   onChange={handleInputChange}
                   name="cep"
@@ -163,7 +159,6 @@ export function ModalCreateUser() {
               </div>
 
               <div>
-                <label>Endereço:</label>
                 <Input
                   onChange={handleInputChange}
                   type="text"
@@ -173,7 +168,6 @@ export function ModalCreateUser() {
                   defaultValue={formData.logradouro}
                 />
 
-                <label>UF:</label>
                 <Input
                   onChange={handleInputChange}
                   type="text"
@@ -183,7 +177,6 @@ export function ModalCreateUser() {
                   defaultValue={formData.uf}
                 />
 
-                <label>Bairro:</label>
                 <Input
                   onChange={handleInputChange}
                   name="bairro"
@@ -192,7 +185,6 @@ export function ModalCreateUser() {
                   defaultValue={formData.bairro}
                 />
 
-                <label>Cidade:</label>
                 <Input
                   onChange={handleInputChange}
                   type="text"
