@@ -52,6 +52,7 @@ export const BodyModalStyled = styled.main`
 
   button {
     width: 100%;
+    margin: 30px 0;
   }
 
   @media (max-width: 730px) {
@@ -60,7 +61,7 @@ export const BodyModalStyled = styled.main`
   }
 
   form {
-    max-height: 80vh;
+    max-height: 70vh;
   }
 `;
 
