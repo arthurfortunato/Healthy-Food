@@ -83,10 +83,12 @@ export const InputModalStyled = styled.div`
     align-items: center;
     height: 100%;
 
-    input {
-      transition: 1.8s all;
-      height: 40px;
-      font-size: 1rem;
+    div {
+      input {
+        transition: 1.8s all;
+        height: 40px;
+        font-size: 1rem;
+      }
     }
   }
 `;

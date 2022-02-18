@@ -3,7 +3,7 @@ import {
   BodyModalStyled,
   HeaderModalStyled,
   InputModalStyled,
-} from "./styles"; 
+} from "./styles";
 
 import React, { ChangeEvent, useEffect, useState } from "react";
 import Modal from "react-modal";
@@ -136,6 +136,14 @@ export function ModalCreateUser() {
                   placeholder="Informe o seu Nome..."
                 />
 
+                <label>CPF:</label>
+                <Input
+                  onChange={handleInputChange}
+                  name="cpf"
+                  mask="999.999.999-99"
+                  placeholder="Informe seu CPF..."
+                />
+
                 <label>Data de Nascimento:</label>
                 <Input
                   onChange={handleInputChange}
@@ -145,6 +153,16 @@ export function ModalCreateUser() {
                   placeholder="Informe a sua data de nascimento..."
                 />
 
+                <label>CEP:</label>
+                <Input
+                  onChange={handleInputChange}
+                  name="cep"
+                  mask="99999-999"
+                  placeholder="Informe o CEP..."
+                />
+              </div>
+
+              <div>
                 <label>Endereço:</label>
                 <Input
                   onChange={handleInputChange}
@@ -163,23 +181,6 @@ export function ModalCreateUser() {
                   mask=""
                   placeholder="Estado(UF)"
                   defaultValue={formData.uf}
-                />
-              </div>
-              <div>
-                <label>CPF:</label>
-                <Input
-                  onChange={handleInputChange}
-                  name="cpf"
-                  mask="999.999.999-99"
-                  placeholder="Informe seu CPF..."
-                />
-
-                <label>CEP:</label>
-                <Input
-                  onChange={handleInputChange}
-                  name="cep"
-                  mask="99999-999"
-                  placeholder="Informe o CEP..."
                 />
 
                 <label>Bairro:</label>
