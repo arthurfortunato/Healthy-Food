@@ -44,7 +44,6 @@ export const BodyModalStyled = styled.main`
   border-radius: 30px;
   padding: 20px;
   background: #f7fafc;
-  z-index: 9999;
 
   h2 {
     font: 500 1.3rem "Roboto", sans-serif;
@@ -58,6 +57,10 @@ export const BodyModalStyled = styled.main`
   @media (max-width: 730px) {
     background: #fff;
     margin: 30px;
+  }
+
+  form {
+    max-height: 80vh;
   }
 `;
 

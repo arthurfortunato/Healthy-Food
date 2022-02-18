@@ -96,7 +96,7 @@ export function ModalCreateUser() {
       {
         style: {
           border: "1px solid #aad362",
-          height: "150px",
+          height: "100%",
           padding: "16px",
           color: "#161d52",
         },

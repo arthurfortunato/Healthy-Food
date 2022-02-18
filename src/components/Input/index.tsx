@@ -1,4 +1,3 @@
-import { InputHTMLAttributes } from 'react'
 import { Container } from './styles';
 import InputMask, { Props } from 'react-input-mask';
 
