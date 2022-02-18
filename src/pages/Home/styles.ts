@@ -10,8 +10,6 @@ export const ContainerStyled = styled.main`
   background-position: right center;
 
   @media (max-width: 1400px) {
-    height: 100%;
-    padding-bottom: 100px;
     background: ${({ theme }) => theme.colors.green};
     display: flex;
     flex-direction: column;
@@ -128,11 +126,12 @@ export const SearchRecipesStyled = styled.div`
   }
 
   input {
-    width: 358px;
+    width: 358px; 
     margin-right: 20px;
   }
 
   button {
+    margin-left: 10px;
     width: 70px;
     height: 60px;
   }
@@ -140,24 +139,25 @@ export const SearchRecipesStyled = styled.div`
   @media (max-width: 1400px) {
     transition: 1.8s all;
     margin: 0;
+    padding-top: 100px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    
     button {
       transition: 1.8s all;
       background: ${({ theme }) => theme.colors.backgroundWhite};
       color: ${({ theme }) => theme.colors.textColor};
     }
-
+    
     h2 {
       max-width: 400px;
     }
   }
-
+  
   @media (max-width: 570px) {
-    padding: 30px;
+    padding: 100px 30px 30px 30px;
     h2 {
       transition: 1.8s all;
       font-size: 2.5rem;
